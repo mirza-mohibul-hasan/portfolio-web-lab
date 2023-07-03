@@ -1,5 +1,5 @@
 // import React from 'react'
-import hero from "../assets/personal/refat.jpeg";
+// import hero from "../assets/personal/refat.jpeg";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -98,8 +98,11 @@ export const Hero = () => {
           detectRetina: true,
         }}
         className="-z-50" />
-      <div className="flex-1 flex items-center justify-center h-full">
+      {/* <div className="flex-1 flex items-center justify-center h-full">
         <img src={hero} alt="" className="w-8/12 rounded-full shadow-cyan-600 border-cyan-600 h-full object-cover mt-14 lg:mt-0 shadow-2xl " />
+      </div> */}
+      <div className="flex-1 flex items-center justify-center h-full">
+        <div className="blob"></div>
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
