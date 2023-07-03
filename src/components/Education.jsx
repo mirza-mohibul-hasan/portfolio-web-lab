@@ -8,7 +8,7 @@ export const Education = () => {
       <div className="py-6 font-titleFont flex flex-col gap-4">
         <h2 className="text-3xl font-bold">Academic Qualification</h2>
       </div>
-      <div className="mt-2 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+      <div className="space-y-5 lg:space-y-0 w-full border-l-[6px] border-l-black border-opacity-30 lg:flex flex-col gap-10">
 
         <Educard
           title="BSc in Computer Science and Engineering"
@@ -19,7 +19,7 @@ export const Education = () => {
         />
         <Educard
           title="Higher Secondary (Science)"
-          subTitle="Cambrian College (2017 - 2019)"
+          subTitle="Cambrian College (2016 - 2018)"
           result="Campus-04, Baridhara, Dhaka"
           des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
         />
