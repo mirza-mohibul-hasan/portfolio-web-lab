@@ -26,8 +26,7 @@ function App() {
           <Education></Education>
           <Exprience></Exprience>
         </div>
-      </div>
-      
+      </div>   
       <Contact></Contact>
       <Footer></Footer>
     </div>

@@ -1,5 +1,3 @@
-// import React from 'react'
-// import hero from "../assets/personal/refat.jpeg";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
